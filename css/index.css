@@ -1,0 +1,54 @@
+@font-face{
+	font-family: KievitRegular;
+	src: url(../fonts/ff-kievit-pro-regular-59354479302cc.otf);
+}
+
+@font-face{
+	font-family: KievitBold;
+	src: url(../fonts/ff-kievit-pro-bold-5935441cdf747.otf);
+}
+
+
+@font-face{
+	font-family: Charter;
+	src: url(../fonts/charter-itc-regular-59354376a9949.otf);
+}
+
+h1,h2{
+	/*text-align: center;*/
+}
+
+h1{
+	font-family: KievitBold;
+	color:#323232;
+}
+h2{
+	font-family: KievitRegular;
+	margin-top: 5px;
+	color:#8F8F8F;
+}
+
+article{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Charter;
+	font-size: 18px;
+	color:#323232;
+}
+
+a:link, a:visited{
+	color:#3cf;
+}
+
+
+
+#signature{
+	width:200px;
+}
+
+#promo{
+	width: 100%;
+}

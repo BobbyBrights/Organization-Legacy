@@ -1,0 +1,25 @@
+application: project-water
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+  
+- url: /css
+  static_dir: css
+
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+  
+- url: /fonts
+  static_dir: fonts
+
+- url: /
+  script: index.php
+
+- url: /index\.html
+  script: index.php
